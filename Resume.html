@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <link href="C:\Users\PortaPC\Documents\normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            z-index: -1;
+        }
+        .bg {
+            background: url('https://i.imgur.com/c0cYHgS.png');
+            background-position: 50% 50%;
+            background-repeat: repeat;
+            background-size:cover; 
+            overflow: visible;
+            height: 400px;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            background: rgba(0,0,0,0.85);
+            position: relative;
+            top: 245px;
+            z-index: 2;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            padding: 5px 0 0 0;
+            font-size: 80px;
+        }
+        ul {
+            font-size: 25px;
+            padding: 0px;
+            margin: -30px 0 0 0;
+        }
+        .li {
+            display: inline;
+            padding: 0px 10px 0px 10px;
+        }
+        article {
+            max-width: 700px;
+            padding: 20px;
+            margin: 0 0 0 51vw;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+        .page {
+            font-size: 35px;
+        }
+        .default {
+            color: white;
+        }
+        .DL {
+            width: 300px;
+            margin: 0 auto;
+            padding: 60px 0 0 0;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+        a {
+            color: black;
+        }
+        .resume {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+        .document {
+            width: 845px;
+            height:1075px;
+        }
+        @media (max-width: 845px) {
+            .resume {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <header>
+            <h1>David Kol</h1>
+            <ul>
+                <li class="li"><a class="default" href="home.html">Home</a></li>
+                <li class="li"><a class="default" href="Projects.html">Projects</a></li>
+                <li class="li page"><a class="default" href="Resume.html">Resume</a></li>
+                <li class="li"><a class="default" href="Contact.html">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="DL"><a href="https://docs.google.com/document/d/1I0fGouCfyn8hDdxEYy4hKhYcGO_-G_PgwJ-AGovqDXk/edit?usp=sharing">Google Doc</a>
+        &emsp;&emsp;&emsp;<a href="https://docs.google.com/document/d/1I0fGouCfyn8hDdxEYy4hKhYcGO_-G_PgwJ-AGovqDXk/export?format=pdf">PDF Download</a>    
+    </div>
+    <div class="resume">
+        <object type="application/pdf" data="pdf.pdf?#zoom=100&scrollbar=0&toolbar=0&navpanes=0" class="document"></object>
+    </div>
+    
+</body>

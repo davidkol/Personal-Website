@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <link href="C:\Users\PortaPC\Documents\normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>David Kol</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            z-index: -1;
+        }
+        .bg {
+            background: url('https://i.imgur.com/9rvuwYK.png');
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            background: rgba(0,0,0,0.85);
+            position: relative;
+            top: 245px;
+            z-index: 1;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            padding: 5px 0 0 0;
+            font-size: 80px;
+        }
+        ul {
+            font-size: 25px;
+            padding: 0px;
+            margin: -30px 0 0 0;
+        }
+        li {
+            display: inline;
+            padding: 0px 10px 0px 10px;
+        }
+        a {
+            color: white;
+        }
+        article {
+            width: 70vw;
+            margin: 0 auto;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            height: 800px;
+        }
+        h2{
+            font-size: 35px;
+            margin: 20px 0 0 0;
+        }
+        p{
+            font-size: 20px;
+            padding: 15px;
+        }
+        .portrait {
+            width: 26vw;
+            border-radius: 50%;
+            float: left;
+            margin: 0 10vw 0 0;
+            z-index: 2;
+        }
+        .innerborder {
+            border: .75vw solid black;
+            box-shadow: inset 0px 0px 0px 5px black;
+            box-sizing: border-box;
+        }
+        .page {
+            font-size: 35px;
+        }
+        @media (max-width: 700px) {
+            .portrait {
+                position: absolute;
+                top: 15px; 
+                left: 15px;
+                width: 220px;
+            }
+            .innerborder
+            {
+                border: 3px solid black;
+            }
+            article {
+                padding: 20px 20px 20px 40px;
+                margin: 0 auto;
+                text-align: left;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <header>
+            <h1>David Kol</h1>
+            <ul>
+                <li class="li page"><a href="home.html">Home</a></li>
+                <li class="li"><a href="Projects.html">Projects</a></li>
+                <li class="li"><a href="Resume.html">Resume</a></li>
+                <li class="li"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+    <div>
+        <article>
+            <div class="pic"><img src="https://i.imgur.com/sXvsRQR.png" class="portrait innerborder"></div>
+            <h2>About Me</h2>
+            <p>I'm a developer currently living in the greater Los Angeles area. I have a BS in Computer Science, specializing in Networked Systems, from UC Irvine.</p>
+            <p>I am passionate about programming and have been doing it since middle school, working in scripting languages and Visual Basic.</p>
+            <p>My goal is to join a team of driven, like-minded individuals who build software with focus and intention.</p>
+        </article>
+    </div>
+</body>

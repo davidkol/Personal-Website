@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <link href="C:\Users\PortaPC\Documents\normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            z-index: -1;
+        }
+        .bg {
+            background: url('https://i.imgur.com/trJp87M.png');
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            color: white;
+            font-family: 'Oswald', sans-serif;
+            background: rgba(0,0,0,0.85);
+            position: relative;
+            top: 245px;
+            z-index: 2;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            padding: 5px 0 0 0;
+            font-size: 80px;
+        }
+        ul {
+            font-size: 25px;
+            padding: 0px;
+            margin: -30px 0 0 0;
+        }
+        .li {
+            display: inline;
+            padding: 0px 10px 0px 10px;
+        }
+        a {
+            color: white;
+        }
+        h2{
+            font-size: 35px;
+            
+        }
+        article {
+            max-width: 700px;
+            padding: 20px 20px 100px 20px;
+            margin: 0 0 0 51vw;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+            padding: 15px;
+        }
+        .portrait {
+            width: 52vmin;
+            position: fixed;
+            bottom: 15px;
+            left: 15px;
+            border-radius: 50%;
+        }
+        .innerborder {
+            border: .75vw solid black;
+            box-shadow: inset 0px 0px 0px 5px black;
+            box-sizing: border-box;
+        }
+        .video1 {
+            float: left;
+            padding: 15px 25px 0 25px;
+            display: initial;
+        }
+        .video2 {
+            display: none;
+        }
+        .git {
+            color: blue;
+            font-size: 20px;
+        }
+        .page
+        {
+            font-size: 35px;
+        }
+        .list{
+            padding: 45px;
+        }
+        .clip {
+            height: 20vw;
+            width: 35.56vw;
+        }
+        @media (max-width: 800px) {
+            article {
+                max-width: 450px;
+                padding: 20px 20px 20px 40px;
+                margin: 0 auto;
+                text-align: left;
+                font-family: 'Roboto', sans-serif;
+            }
+            .video1 {
+            display: none;
+            }
+            .video2 {
+                display: initial;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <header>
+            <h1>David Kol</h1>
+            <ul class="ul">
+                <li class="li"><a href="home.html">Home</a></li>
+                <li class="li page"><a href="Projects.html">Projects</a></li>
+                <li class="li"><a href="Resume.html">Resume</a></li>
+                <li class="li"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+    <div class="project1">
+        <p class="video1"><iframe class="clip" src="https://www.youtube.com/embed/x5zGfBEfm-I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        <article>
+            <h2>Magic Shotgun - <a class="git" href="https://github.com/davidkol/MagicShotgun/tree/master/Source/MagicShotgun">Github</a> </h2>
+            <p>The objective of this project was to improve my ability to teach myself new skills and manage my time. I placed a hard limit of 3 months to get a working, playable game, and to learn as much as possible about these key areas: </p>
+            <ul class="list">
+                <li class="item">Mechanics (C++)</li>
+                <li class="item">Animations (Blender)</li>
+                <li class="item">A.I. (C++/Blueprints)</li>
+            </ul>
+            <p class="video2"><iframe class="clip" src="https://www.youtube.com/embed/x5zGfBEfm-I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        </article>
+    </div>
+    <div class="project2">
+        <p class="video1"><iframe class="clip" src="https://www.youtube.com/embed/p-lsSCuC8uA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        <article>
+            <h2>VR Spell Fighter - <a class="git" href="https://github.com/davidkol/spellfighterVR">Github</a> </h2>
+            <p>I started this project to try working with unique hardware and networks. This project was in Unreal Engine, using the HTC Vive. Starting from scratch made it difficult as I had to figure out how to build many of the basic elements from nothing, leaving little time to build the online element of the game. The entire project took 2 months in the summer of 2016. Hopefully when the next wave of VR hardware is released I can continue where I left off.</p>
+            <p class="video2"><iframe class="clip" src="https://www.youtube.com/embed/p-lsSCuC8uA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        </article>
+    </div>
+    <div class="project3">
+        <article>
+                <h2>Misc - <a class="git" href="https://github.com/davidkol/">Github</a> </h2>
+                <p>I started this project to try working with unique hardware and networks. This project was in Unreal Engine, using the HTC Vive. Starting from scratch made it difficult as I had to figure out how to build many of the basic elements from nothing, leaving little time to build the online element of the game. The entire project took 2 months in the summer of 2016. Hopefully when the next wave of VR hardware is released I can continue where I left off.</p>
+        </article>
+    </div>
+</body>
